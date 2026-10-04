@@ -1,0 +1,25 @@
+# Local secrets and certificates
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local Python environment and generated files
+backend/.venv/
+**/__pycache__/
+*.py[cod]
+
+# Local database and runtime state
+instance/*.db
+instance/*.sqlite*
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+
+# Local logs and editor files
+*.log
+.DS_Store
+.vscode/
